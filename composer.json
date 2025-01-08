@@ -1,5 +1,5 @@
 {
-  "name": "svenbw/kohana-email",
+  "name": "tomazov/kohana-email",
   "description": "Email module for Koseven",
   "version": "1.0.1",
   "license": "MIT",
@@ -8,14 +8,8 @@
     "koseven",
     "email"
   ],
-  "authors": [
-    {
-      "name": "Sven Rymenants",
-      "email": "sven@byteworks.be",
-      "role": "developer"
-    }
-  ],
   "require": {
+    "php": ">=8.0",
     "symfony/mailer": "^6.0",
     "phpmailer/phpmailer": "^5.2"
   }
