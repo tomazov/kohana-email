@@ -23,7 +23,7 @@ Kohana::modules(array(
 ### Composer module method 
 1. Include with composer:
 ```
-composer require svenbw/kohana-email:dev-master
+composer require tomazov/kohana-email:dev-master
 ```
 2. Enable vendor autoload in `APPPATH/bootstrap.php` if not already:
 ```php
@@ -33,7 +33,7 @@ require DOCROOT.'/vendor/autoload.php';
 ```php
 Kohana::modules(array(
 	...
-	'email' => DOCROOT.'/vendor/svenbw/kohana-email',
+	'email' => DOCROOT.'/vendor/tomazov/kohana-email',
 	...
 ));
 ```
