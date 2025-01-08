@@ -1,7 +1,7 @@
 Kohana Email module
 ===================
 
-Kohana 3.3 and Koseven compatible email module using SwiftMailer or PHPMailer.
+koseven 8.3 and Koseven compatible email module using symfony/mailer or PHPMailer.
 
 ## How to install
 
@@ -23,7 +23,7 @@ Kohana::modules(array(
 ### Composer module method 
 1. Include with composer:
 ```
-composer require tomazov/kohana-email:dev-master
+composer require tomazov/kohana-email:dev-main
 ```
 2. Enable vendor autoload in `APPPATH/bootstrap.php` if not already:
 ```php
