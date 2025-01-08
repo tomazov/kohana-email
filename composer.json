@@ -1,7 +1,7 @@
 {
   "name": "svenbw/kohana-email",
   "description": "Email module for Koseven",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "kohana",
@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "swiftmailer/swiftmailer": "^5.4",
+    "symfony/mailer": "^6.0",
     "phpmailer/phpmailer": "^5.2"
   }
 }
