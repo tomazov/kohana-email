@@ -13,7 +13,7 @@ composer install
 ```
 3. Include it in `APPPATH/bootstrap.php` modules list:
 ```php
-Kohana::modules(array(
+KO7::modules(array(
 	...
 	'email' => MODPATH.'email',
 	...
@@ -31,7 +31,7 @@ require DOCROOT.'/vendor/autoload.php';
 ```
 3. In the same file include it in your modules list:
 ```php
-Kohana::modules(array(
+KO7::modules(array(
 	...
 	'email' => DOCROOT.'/vendor/tomazov/kohana-email',
 	...

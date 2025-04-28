@@ -1,3 +1,3 @@
 <?php
 
-class Email_Exception extends Kohana_Email_Exception {}
+class Email_Exception extends KO7_Email_Exception {}

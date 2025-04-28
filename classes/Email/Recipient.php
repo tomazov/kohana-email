@@ -1,3 +1,3 @@
 <?php
 
-class Email_Recipient extends Kohana_Email_Recipient {}
+class Email_Recipient extends KO7_Email_Recipient {}

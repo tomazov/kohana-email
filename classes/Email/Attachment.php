@@ -1,3 +1,3 @@
 <?php
 
-class Email_Attachment extends Kohana_Email_Attachment {}
+class Email_Attachment extends KO7_Email_Attachment {}

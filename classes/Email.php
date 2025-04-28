@@ -1,3 +1,3 @@
 <?php
 
-abstract class Email extends Kohana_Email {}
+abstract class Email extends KO7_Email {}

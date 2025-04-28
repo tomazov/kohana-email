@@ -1,3 +1,3 @@
 <?php
 
-class Email_Swiftmailer extends Kohana_Email_Swiftmailer {}
+class Email_Swiftmailer extends KO7_Email_Swiftmailer {}

@@ -1,3 +1,3 @@
 <?php
 
-class Email_Phpmailer extends Kohana_Email_Phpmailer {}
+class Email_Phpmailer extends KO7_Email_Phpmailer {}

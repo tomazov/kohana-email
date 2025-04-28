@@ -9,7 +9,7 @@ This module offers an interface that is matches the interface of other Kohana mo
 Before using the email module, we must enable it first on `APPPATH/bootstrap.php`:
 
 ~~~
-Kohana::modules(array(
+KO7::modules(array(
     ...
     'email' => MODPATH.'email',  // Sending email
     ...
